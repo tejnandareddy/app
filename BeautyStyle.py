@@ -34,9 +34,11 @@ soup = BeautifulSoup(driver.page_source, 'html.parser')
 '''
 repo_details = soup.findAll("ul", class_="repo_list")
 print((len(repo_details)))
-for i in repo_details:
-    for li_tag in i.find_all('li'):
-        print(li_tag.text)'''
+for i in page(1,6):
+    if:
+        print("acesss")
+     else:
+         print("done")
 
 # data = soup.find('h3')
 # uls = []
